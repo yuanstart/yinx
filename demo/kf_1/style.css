@@ -1,0 +1,18 @@
+@charset "utf-8";
+#box-kefu { position: fixed; right: 0; z-index: 100; _position: absolute; font-family:"微软雅黑";}
+
+#box-kefu .kefu-open {position: absolute; top: 0; right: 0; width: 0px; padding: 46px 0 0 0; background: url(kefu_icon.png) no-repeat -46px 0; _background-image: url(kefu_icon.gif); overflow: hidden;}
+#box-kefu .kefu-open .close{ display: block; position: absolute; width: 22px; height: 22px; right: 0; top: 0; text-indent: -9999px; }
+#box-kefu .kefu-open .kefu-open_bbg {padding-bottom: 5px; background: url(kefu_bg.png) no-repeat -268px bottom; width: 134px; }
+#box-kefu .kefu-open ul {background: url(kefu_bg.png) repeat-y 0 0 #939393; padding-top:5px;}
+#box-kefu .kefu-open li {height: 32px; line-height: 32px; padding: 0 2px 2px 0px; background: url(kefu_bg.png) no-repeat -134px bottom; }
+/*大图标有昵称 padding-left:9px;   大图标无昵称 padding-left:27px;   小图标有昵称 padding-left:30px;*/
+#box-kefu .kefu-open li a {color: #fff; display: block; padding-left:9px; clear:both;}
+#box-kefu .kefu-open li a:hover {text-decoration: none;}
+#box-kefu .kefu-open li a img {float:left; margin:3px 3px 0 0;}
+#box-kefu .kefu-open li a span {}
+#box-kefu .kefu-open li.phone a{padding-left:9px;}
+#box-kefu .kefu-open li.phone img{margin-right:0px;}
+#box-kefu .kefu-open li.phone span{ font-size:14px; font-weight:bold; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+
+#box-kefu .kefu-close { position: absolute; top: 5px; right: 0;height: 127px; padding: 0; background: url(kefu_icon.png) no-repeat 0 0; _background-image: url(kefu_icon.gif); cursor: pointer; overflow: hidden; width:0px; }

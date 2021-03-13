@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*大框*/
+.qq_s{width:90px;height: 172px;position:fixed;right: 10px;top: 40%; z-index:99999; display:none;}
+.q_top{width:100%;background:#E6E6E6;height:30px;line-height:30px;text-align: right;cursor:pointer;}
+.q_btn{background:url(qqimg.png) no-repeat;display:block;background-position:-203px -484px;width: 10px;height: 30px;float:right;margin: 3px 10px 0 3px;}
+.q_botm{width: 84px;border: 3px solid #E6E6E6; border-bottom:1px solid #E6E6E6;}
+/*大框列表*/
+.q_list ul li{position:relative; overflow:hidden;}
+.q_list ul li a{width:100%; height:45px;display:block;background:url(qqimg.png) no-repeat;border-bottom:2px solid #E6E6E6;}
+.q_list ul li a span{width:100%;height:17px;position:absolute;left:-84px;padding-top:28px;text-align:center;display:block;color:#fff;background:#FE9B1D url(qqimg.png) no-repeat;}
+.q_list ul li a img{ position:absolute;right:-1000px;}
+.q_list ul li.qq a{ background-position:20px -458px;}
+.q_list ul li.qq a span{background-position:-242px -348px;}
+.q_list ul li.skype a{ background-position:20px -402px;}
+.q_list ul li.skype a span{background-position:-188px -430px;}
+.q_list ul li.alww a{ background-position:20px -346px;}
+.q_list ul li.alww a span{background-position:-190px -388px;}
+.q_list ul li.tbww a{ background-position:20px -346px;}
+.q_list ul li.tbww a span{background-position:-190px -388px;}
+.q_list ul li.msn a{ background-position:20px -295px;}
+.q_list ul li.msn a span{background-position:-190px -348px;}
+/*大框微博*/
+.wb_s ul li{height:45px;position:relative;border-bottom:2px solid #E6E6E6;}
+.wb_s ul li a{width:100%;height:45px; position:absolute; left:0px;display:block;background:url(qqimg.png) no-repeat 20px -243px;}
+.wb_s ul li span{width:136px;height:45px; position:absolute; left:0px; display:none;background:url(weibo.png) no-repeat; z-index:100;}
+/*大框微信*/
+.wx_s ul li{height:45px;position:relative;border-bottom:2px solid #E6E6E6;}
+.wx_s ul li a{width:100%;height:45px; position:absolute; left:0px;display:block;background:url(qqimg.png) no-repeat 20px -188px;}
+.wx_s ul li span{ width:145px; height:143px;position:absolute;left:-145px; top:-47px;z-index:100; display:none;}
+
+/*大框置顶*/
+.backtop ul li{position:relative; overflow:hidden;}
+.backtop ul li a{width:100%; height:45px;display:block;background:url(qqimg.png) no-repeat -241px -434px;border-bottom:2px solid #E6E6E6;}
+.backtop ul li a span{width:100%;height:17px;position:absolute;left:-84px;padding-top:28px;text-align:center;display:block;color:#fff;background:#FE9B1D url(qqimg.png) no-repeat -243px -479px;}
+
+
+
+/*小框*/
+.qq_s1{width:60px;position:fixed;right:10px;bottom:10px;display:none;}
+.q_top1{width:100%;height:30px;background:#E6E6E6;line-height:30px;text-align:right;cursor:pointer;}
+.q_btn1{background:url(qqimg.png) no-repeat;display:block;background-position:-233px -478px;width: 10px;height: 30px;float:right;margin:0 5px 0 3px;}
+.q_botm1{width:56px;border:2px solid #E6E6E6;}
+/*小框列表*/
+.q_list1 ul li{}
+.q_list1 ul li a{ width:100%;height:33px;display:block;background:url(qqimg.png) no-repeat;border-bottom:2px solid #E6E6E6;}
+.q_list1 ul li a span{ display:none;}
+.q_list1 ul li.qq a{ background-position:-55px -465px;}
+.q_list1 ul li.skype a{ background-position:-55px -411px;}
+.q_list1 ul li.alww a{ background-position:-55px -356px;}
+.q_list1 ul li.tbww a{ background-position:-55px -356px;}
+.q_list1 ul li.msn a{ background-position:-55px -303px;}
+.q_list1 ul li a img{ position:absolute;right:-10000px;}
+/*小框微博*/
+.wb_s1 ul li{height:33px;position:relative;border-bottom:2px solid #E6E6E6;}
+.wb_s1 ul li a{width:100%;height:33px; position:absolute; left:0px;display:block;background:url(qqimg.png) no-repeat -55px -251px;}
+.wb_s1 ul li span{width:94px;height:33px; position:absolute; left:0px; display:none;background:url(weibox.png) no-repeat; z-index:100;}
+/*小框微信*/
+.wx_s1 ul li{height:33px;position:relative;border-bottom:2px solid #E6E6E6;}
+.wx_s1 ul li a{width:100%;height:33px; position:absolute; left:0px;display:block;background:url(qqimg.png) no-repeat -55px -198px;}
+.wx_s1 ul li span{ width:145px; height:143px;position:absolute;left:-145px; top:-73px;z-index:100; display:none;}
+/*大框置顶*/
+.backtop1 ul li a{width:100%;height:33px;display:block;background:url(qqimg.png) no-repeat -255px -437px;}
+.backtop1 ul li a span{display:none;}
+
+
+

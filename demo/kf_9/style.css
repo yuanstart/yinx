@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+#rightsead{width:130px;height:350px;position:fixed; top:50px;right:0px;}
+#rightsead li{width:131px;height:60px; position:relative;}
+#rightsead li img{float:right;}
+#rightsead li a{height:49px;float:right;display:block;min-width:47px;max-width:131px;}
+#rightsead li a .shows{display:block;}
+#rightsead li a .hides{margin-right:-143px;cursor:pointer;cursor:hand;}
+#rightsead li a.weixin .hides{display:none;position:absolute;right:188px;top:-48px;}
+

@@ -1,0 +1,167 @@
+@charset "utf-8";
+body{ font-size:12px; margin:0px; padding:0px;}
+a{ text-decoration:none; color:#333333; font-size:12px;}
+a:hover{ color:blue;}
+img{ border:none;}
+.clear{ clear:both;}
+ul,li { margin:0px; padding:0px; list-style:none;}
+
+/*表单公共部分*/
+/*最外层容器*/
+.box_style{color:#4e4e4e; font-size:12px;font-family:"微软雅黑";}
+/*文本框*/
+.input_bor{color:#4e4e4e;  margin:5px 0 5px 10px; display:inline; font-size:12px; width:240px; height:22px; line-height:22px; border:1px solid #dadada; padding-left:2px;}
+/*按钮*/
+.input_btn{ margin-left:10px;}
+/*带*必填项*/
+.txt_red{ color:#FF0000;}
+/*文本框后面的文字说明*/
+.txt_hui{margin-left:10px;color:#999999; font-family:"宋体"; font-size:12px; }
+
+/*登录框*/
+.login_box{ width:450px; margin:0 auto; padding:0 18px; border:1px #dbdbdb solid; background:#fbfbfb;}
+.login_box form{ padding:0px; margin:0px;}
+/*登录框顶部*/
+.login_title{ line-height:44px; height:44px; border-bottom:1px #eaeaea solid;}
+.login_title_left{ float:left;}
+.login_title_right{ float:right;font-size:12px;}
+.login_title_right a{ color:#d10008; text-decoration:underline;}
+/*登录框中部*/
+.login_con{ border-top:1px #FFF solid; padding:15px 0 15px 0;}
+
+/*注册框*/
+.reg_box{ width:450px; margin:0 auto; padding:0 18px; border:1px #dbdbdb solid; background:#fbfbfb; }
+.reg_box form{ padding:0px; margin:0px;}
+/*注册框顶部*/
+.reg_title{ line-height:44px; height:44px; border-bottom:1px #eaeaea solid;}
+.reg_title_left{ float:left;}
+.reg_title_right{ float:right;font-size:12px;}
+.reg_title_right a{color:#d10008; text-decoration:underline;}
+/*登录框中部*/
+.reg_con{ border-top:1px #FFF solid; padding:15px 0 15px 0;}
+
+/*资料修改框*/
+.zl_box{}
+.zl_box form{ padding:0px; margin:0px;}
+
+/*密码修改框*/
+.pwd_box{}
+.pwd_box form{ padding:0px; margin:0px;}
+
+/*留言列表 改这里的宽度=90+右侧宽度*/
+.message_list { width:733px; margin:0 auto;}
+.message_list li{clear:both; margin:10px 0 0 0;}
+.mgeleft{width:90px;float:left;}
+.mgeleft .mgeicon{padding:0px 12px;}
+.mgeleft .mgename{text-align:center;font-family:Arial, Helvetica, sans-serif;font-size:12px;padding-top:5px;color:#c00108;font-weight:bold;}
+/*改这里的宽度，记得是+2+margin-left+padding-left+padding-right的宽度*/
+.mgeright{width:576px;margin-left:25px; padding:10px 20px;float:left; position:relative;border:1px solid #EDEDEF;  font-family:"微软雅黑";}
+.mgeright .righticon{ width:29px; height:31px; position:absolute; left:-29px; top:15px; background:url(../images/righticon.png) no-repeat left top;}
+.mgeright .mgetime{text-align:right;font-family:Arial, Helvetica, sans-serif;color:#c00108; padding-bottom:5px;}	
+.mgeright p{ margin:0px; padding:0px 0px 5px 0px;line-height:150%;}
+.mgeright .mgereply{ position:relative;}
+.mgeright .mgereply .mgetitle{width:84px; height:25px; position:absolute; background:url(../images/picon.gif) no-repeat left top;padding-left:20px;font-weight:bold;line-height:20px;color:#FFFFFF; left:-27px;}
+.mgeright .mgereply p{color:#989E4D; padding:25px 0 0 0;}
+.IntroTitle{ width:720px;font-size:14px;line-height:25px;border-left:3px solid #c00108;margin:10px auto;padding-left:10px;color:#c00108;font-weight:bold;background-color:#e5e5e5;}
+
+/*留言框*/
+.message_box{}
+.message_box form{ padding:0px; margin:0px;}
+
+/*在线下单*/
+.order_box{}
+.order_box form{ padding:0px; margin:0px;}
+
+/*在线报名*/
+.baoming_box{}
+.baoming_box form{ padding:0px; margin:0px;}
+
+/*招聘列表*/
+.joblist{ width:600px; margin:0 auto;}
+.joblist li{ margin-top:20px; clear:both;}
+.joblist li .job_tit{ display:block; padding:5px 0; margin:0px; font-size:12px; border-bottom:1px solid #ccc; font-weight:bold;}
+.joblist li .job_tit span{ float:right; font-weight:normal;}
+.joblist li .job_ti {  display:block;font-weight:bold;padding:8px 0 3px; color:#666666;}
+.joblist li .job_con{ margin:0px; line-height:180%;}
+.joblist li .job_sty{ margin:5px 0 0 0; color:#888;}
+.joblist li .job_01{ width:65px; float:left;}
+.joblist li .job_02{ width:40px; float:left;}
+.joblist li .job_03{ width:65px; float:left;}
+.joblist li .job_04{ width:60px; float:left;}
+.joblist li .job_05{ width:65px; float:left;}
+.joblist li .job_06{ width:80px; float:left;}
+.joblist li .job_07{ width:65px; float:left;}
+.joblist li .job_08{ width:80px; float:left;}
+
+/*招聘列表1(标题+时间)*/
+.joblist_1{ width:733px; margin:0 auto;}
+.joblist_1 li{ padding:6px 0 6px 0; clear:both; border-bottom:dotted 1px #a8a8a8;}
+.joblist_1 li span{float:right;}
+
+/*显示招聘详细*/
+.jobshow{ width:733px; margin:0 auto;}
+.jobshow{ margin-top:20px; clear:both;}
+.jobshow .job_tit{ display:block; padding:5px 0; margin:0px; font-size:12px; border-bottom:1px solid #ccc; font-weight:bold;}
+.jobshow .job_tit span{ float:right; font-weight:normal;}
+.jobshow .job_ti {  display:block;font-weight:bold;padding:8px 0 3px; color:#666666;}
+.jobshow .job_con{ margin:0px; line-height:180%;}
+.jobshow .job_sty{ margin:5px 0 0 0; color:#888;}
+.jobshow .job_01{ width:65px; float:left;}
+.jobshow .job_02{ width:40px; float:left;}
+.jobshow .job_03{ width:60px; float:left;}
+.jobshow .job_04{ width:80px; float:left;}
+
+/*在线应聘*/
+.job_box{}
+.job_box form{ padding:0px; margin:0px;}
+
+/*经销商查询表单1*/
+.age_con_1{}
+.age_box_1{ width:600px; margin:0 auto; border:1px solid #f0f0f0;}
+.age_box_1 .age_img{ width:178px; float:left; padding:10px 0 0 0;}
+.age_box_1 .age_sea{ float:left;padding:60px 0 0 50px;}
+.age_box_1 .age_sea form{ margin:0; padding:0;}
+.age_box_1 .age_sea .sea_txt{color:#8c8c8c; font-family:'微软雅黑'; padding:0 0 10px 0; margin:0px;}
+.age_box_1 .age_sea .sea_input{width:249px; height:32px; line-height:32px; text-indent:8px; color:#666; font-size:16px; font-family:'微软雅黑';border:1px solid #e5e5e5;}
+.age_box_1 .age_sea .sea_btn{ width:119px; height:38px;cursor:pointer;background:url(../images/jxs_13.jpg) no-repeat;margin:12px 0 0 0; padding:0; border:none;}
+.age_con_1 #ajax_result{text-align:center; margin:25px 0;color:#666;}
+
+/*经销商查询表单2*/
+.age_con_2 {width:1000px; margin:0 auto; border-bottom:1px solid #f0f0f0;}
+.age_con_2 h2{ margin:0px; padding:0px; padding:0 0 8px 0;font-family:'微软雅黑'; font-size:14px;color:#666;border-bottom:1px solid #f0f0f0;}
+.age_box_2 {width:600px; margin:30px auto;}
+.age_box_2 .age_img{ width:178px; float:left; padding:10px 0 0 0;}
+.age_box_2 .age_sea{ float:left;padding:60px 0 0 50px;}
+.age_box_2 .age_sea form{ margin:0; padding:0;}
+.age_box_2 .age_sea .sea_txt{color:#8c8c8c; font-family:'微软雅黑'; padding:0 0 10px 0; margin:0px;}
+.age_box_2 .age_sea .sea_input{width:249px; height:32px; line-height:32px; text-indent:8px; color:#666; font-size:16px; font-family:'微软雅黑';border:1px solid #e5e5e5;}
+.age_box_2 .age_sea .sea_btn{ width:119px; height:38px;cursor:pointer;background:url(../images/jxs_13.jpg) no-repeat;margin:12px 0 0 0; padding:0; border:none;}
+.age_con_2 #ajax_result{ text-align:center;margin:25px 0; color:#666;}
+
+/*防伪查询*/
+.code_con{width:710px; margin:0 auto;}
+.code_con .code_tit{color:#666; font-size:25px; font-family:'微软雅黑'; padding:15px 0 7px; margin:0px;}
+.code_con .code_tit span{color:#da0011;}
+.code_box{width:710px; height:113px; background:#fcfcfc;}
+.code_box .code_img{width:222px; height:113px; float:left; margin-right:37px;}
+.code_box .code_right{width:450px; float:left;}
+.code_box .code_right p{color:#666; font-size:16px; font-family:'微软雅黑'; padding:22px 0 12px; margin:0px;}
+.code_box .code_input{width:88px; height:30px; line-height:30px; text-align:center; float:left; margin-right:5px; border:1px solid #e4e4e4; background:#fff; padding:0 3px;}
+.code_box .code_sub{ margin-top:5px; padding-left:260px;}
+.code_con .sea_btn{width:119px; height:38px;cursor:pointer;background:url(../images/jxs_13.jpg) no-repeat;margin:5px 0 0 260px; padding:0; border:none;}
+.code_con #ajax_result{ line-height:200%; text-align:center; border:1px solid #ee9d9d; padding:10px; margin-top:35px; background-color:#fbecec;}
+
+/*邮件订阅*/
+.email_box{ width:215px; margin:0 auto; border:1px solid #f0f0f0; padding:10px;}
+.email_box .sea_txt{color:#8c8c8c; font-family:'微软雅 黑'; padding:0 0 5px 0; margin:0px;}
+.email_box .sea_input{width:209px; height:22px; line-height:22px; text-indent:3px; color:#666; font-size:12px;border:1px solid #e5e5e5;}
+.email_box .sea_btn{width:94px; height:31px;cursor:pointer;background:url(../images/btn_email.png) no-repeat;margin:5px 0 0 0; padding:0; border:none;}
+
+/*详细内容分页*/
+.pagecon{}
+.pagetit{ width:100%; text-align:center;}
+.pagetit li{ display:inline-block;*display:inline;}
+.pagetit a{border:1px solid #ddd;text-decoration:none;color:#999;padding:2px 6px;margin:0 1px;overflow:visible; cursor:pointer;}
+.pagetit a:hover {border:1px solid #999;color:#000;background-color:#f2f2f2;}
+.pagetit li.cur a {border:1px solid #999;color:#000;background-color:#f2f2f2;padding:2px 6px;font-weight:bold;}
+

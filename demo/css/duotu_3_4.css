@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.duotu_3_4{width:369px;}
+/*中图*/
+.duotu_3_4 .bigimg{width:298px;height:298px; float:right; border:1px solid #dcdddd;}
+.duotu_3_4 .bigimg li{ width:298px;height:298px;text-align:center;display:table;}
+.duotu_3_4 .bigimg li span{vertical-align:middle;display:table-cell;}
+.duotu_3_4 .bigimg li a{ margin:0px auto;}	
+/*左右按钮*/
+.duotu_3_4 .smallscroll_3_4{ width:63px;margin-right:6px; float:left;}
+.duotu_3_4 .sprev{ width: 63px; height: 14px; display: block; background: url(../images/tb_btn_d.png) no-repeat 0 0;}
+.duotu_3_4 .snext{ width: 63px; height: 14px; display: block; background: url(../images/tb_btn_d.png) no-repeat 0 -14px;}	
+/*小图*/
+.duotu_3_4 .smaimg{width:63px; margin-top:4px;}
+.duotu_3_4 .smaimg li{ width:63px; height:63px;cursor:pointer; margin-bottom:4px;}
+.duotu_3_4 .smaimg img{width:61px; height:61px; border: 1px solid #dcdddd;}	
+.duotu_3_4 .smaimg li.on img{border-color:#C00C3E;}
+

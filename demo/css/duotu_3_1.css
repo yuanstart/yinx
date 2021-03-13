@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.duotu_3_1{ width:378px;}	
+/*中图*/
+.duotu_3_1 .bigimg{width:298px; height:298px; float:right; border:1px solid #dcdddd; overflow:hidden;}	/*如果要加放大镜，请删除"overflow:hidden;"，否则放大镜显示不了*/
+.duotu_3_1 .bigimg li{ width:298px;height:298px;text-align:center;display:table;}
+.duotu_3_1 .bigimg li span{vertical-align:middle;display:table-cell;}
+.duotu_3_1 .bigimg li a{ margin:0px auto;}
+/*小图*/
+.duotu_3_1 .smaimg{width:72; height:300px; float:left; margin-right:6px; overflow:hidden;}	
+.duotu_3_1 .smaimg li{width:72px; height:72px; margin-bottom:4px; cursor:pointer;}
+.duotu_3_1 .smaimg li.last{margin-bottom:0px;}	
+.duotu_3_1 .smaimg img{width:70px; height:70px; border: 1px solid #dcdddd;}	
+.duotu_3_1 .smaimg .on img{border-color:#C00C3E;}
+/*
+提醒：
+如果想把列表小图移动到别的地方
+1.设定.duotu_3_1为相对定位 position:relative;
+2.设定.duotu_3_1 .smaimg为绝对定位并设置好你要的位置 position:absolute; left:320px; top:220px;
+*/
+

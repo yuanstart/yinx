@@ -1,0 +1,10 @@
+<?php
+require_once('include/common.inc.php');
+require_once('demo/lang.php');
+//加载整站配置文件
+$cong=load_config('setup');
+//语言字段后缀，中文版默认为空，英文版为_en
+$cong['lang']=$cong['mlang'][0]['lang'];
+//语言版本路径，如果该文件在根目录，此值为空，例如该文件在cn文件夹，则此值为../
+$cong['path']=$cong['mlang'][0]['path'];
+?>

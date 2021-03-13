@@ -1,0 +1,21 @@
+.kf_btn {position: fixed; top: 150px; right: 1px; _position: absolute; font-family:"微软雅黑";}
+.kf_btn a {color: #00a0e9}
+.kf_btn a:hover {color: #ff8100; text-decoration: none}
+.kf_btn .floatL {position: relative; width: 29px; float: left}
+.kf_btn .floatL a {text-indent: -9999px; display: block; font-size: 0px}
+.kf_btn .btnCtn {position: relative; width: 29px; height: 118px; top: 40px; left: 2px;background: url(float_s.gif) no-repeat;background-position: 0px -396px;}
+.kf_btn .zhankai{background-position: -30px -396px;}
+.kf_btn .floatR {background: url(float_bg.gif);padding-bottom: 15px; width: 130px; background-repeat: no-repeat; background-position: -131px bottom; float: left; overflow: hidden}
+.kf_btn .listBox_top {background: url(float_bg.gif);background-repeat: no-repeat; background-position: 0% 0%; height: 10px}
+.kf_btn .listBox {background: url(float_bg.gif);background-repeat: repeat-y; background-position: -262px 0px}
+.kf_btn .listBox h3.kf_tit{ width:108px;margin:0 0 0 10px; padding:10px 0 2px 0px;color:#00a0e9; font-weight:bold; font-size:12px; border-bottom:1px solid #f0f0f0;} 
+.kf_btn .listBox h3.hst{ padding-top:15px;}
+.kf_btn .listBox .kf_tit_list{font-size:12px;overflow:hidden;}
+.kf_btn .listBox .kf_tit_list li{width:108px;margin:5px 0 0 10px;overflow:hidden;line-height:30px;border-bottom:1px solid #f0f0f0;}
+/*大图标有昵称 padding-left:0px;   大图标无昵称 padding-left:15px;*/
+.kf_btn .listBox .kf_tit_list li a{height:30px; display:block;clear:both; padding-left:15px}
+.kf_btn .listBox .kf_tit_list li a img {float:left; margin:3px 1px 0 0px;}
+.kf_btn .listBox .kf_tit_list li.phone a{ color:blue; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding-left:0px;}
+
+
+

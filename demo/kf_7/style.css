@@ -1,0 +1,34 @@
+@charset "utf-8";
+.qq_object{position:fixed; left:-157px; top:150px; _position:absolute;_top:expression(documentElement.scrollTop +documentElement.clientHeight-this.offsetHeight -300);}
+.qq_lin{ width:157px; position:relative; left:0;}
+.qq_header{ width:157px; height:39px; background:url(img3-5_2.png) no-repeat left center;}
+
+.qq_ul{ width:157px; padding:15px 0 20px; background:url(img3-5_3.png) repeat-y; overflow:hidden; font-size:12px;}
+.qq_ul h3.kf_tit{ width:128px;margin:0 0 0 15px; padding:10px 0 2px 0px;color:#00a0e9; font-weight:bold; font-size:12px; border-bottom:1px solid #f0f0f0;} 
+.qq_ul h3.hst{ padding-top:5px;}
+.qq_ul .kf_tit_list{font-size:12px;overflow:hidden;}
+.qq_ul .kf_tit_list li{width:128px;margin:5px 0 0 15px;overflow:hidden;line-height:30px;border-bottom:1px solid #f0f0f0;}
+/*大图标有昵称 padding-left:5px;   大图标无昵称 padding-left:15px; 小图标有昵称 padding-left:25px*/
+.qq_ul .kf_tit_list li a{height:30px; display:block;clear:both; padding-left:5px}
+.qq_ul .kf_tit_list li a img {float:left; margin:3px 3px 0 0px;}
+.qq_ul .kf_tit_list li.phone a{ color:blue; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding-left:10px;}
+
+.qq_bottom{ height:8px; background:url(img3-5_4.png) no-repeat left bottom; font-size:0;}
+.qq_btn,.qq_btn1{ position:absolute; right:-29px; top:59px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

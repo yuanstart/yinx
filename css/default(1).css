@@ -1,0 +1,63 @@
+.prodetail_1{font-size:14px; color:#555; line-height:1.4; text-align:left; padding:.4em 0; width:100%;}
+.prodetail_1 img{max-width: 100%;}
+
+.prodetailstyle_1 .mobile{ display:none; }
+.prodetailstyle_1 .pc{ display:block; }
+.prodetailstyle_1 .collage_bt{ font-size:20px; line-height:3; }
+.prodetailstyle_1 .itembox{ background:#eee; padding:10px 20px; border-bottom:1px solid #e5e5e5; overflow:hidden; font-size:16px; display:flex; justify-content: space-between; flex-wrap: wrap;}
+.prodetailstyle_1 .user_img{ width:50px; height:50px; border-radius:200px; overflow:hidden; }
+.prodetailstyle_1 .user_img img{ width:100% !important; height:100%; margin:0 !important;}
+.prodetailstyle_1 .itembox>div{ line-height:50px; margin:0 5px;}
+.prodetailstyle_1 .initiator_name.pc{ width:100px; text-align:center; }
+.prodetailstyle_1 .join_list_ul{ overflow:hidden; }
+.prodetailstyle_1 .join_list_ul li{float:left; box-sizing: border-box; -webkit-box-sizing: border-box; margin:0 5px;}
+.prodetailstyle_1 .surplus_value{ color:red; }
+.prodetailstyle_1 .join_btn{ background:rgb(239,91,81); margin:13px 0; color:white; line-height:1; border-radius: 20px; padding:4px 20px; box-sizing: border-box; -webkit-box-sizing: border-box;}
+.prodetailstyle_1 .join_btn:hover{ cursor:pointer; }
+
+.proListShow{ box-sizing: border-box; margin-top: 30px;}
+.proListShow h2{ display: block; border-left: 4px solid #e85342; font-size: 18px; line-height: 1; padding: 0 10px; box-sizing: border-box; margin-bottom: 20px;}
+.proListShow .listUl{ border: 1px solid #f5f5f5; padding: 10px; display: flex; justify-content: space-between; flex-wrap: wrap; box-sizing: border-box;}
+.proListShow .listLi{ width: calc(96%/4);}
+.proListShow .listLi .imgDiv{  position: relative; padding-bottom: 100%; overflow: hidden;}
+.proListShow .imgDiv img{ transition: transform .3s; width: 100%; position: absolute; left: 50%; top: 0; transform: translateX(-50%); -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -o-transform: translateX(-50%);}
+.proListShow .titleDiv{ text-align: center; color: #333; font-size: 16px; line-height: 1.5; margin-top: 10px;}
+
+.prodetail_1 .selectTdClass{background-color:#edf5fa !important}
+.prodetail_1 table.noBorderTable td,
+.prodetail_1 table.noBorderTable th,
+.prodetail_1 table.noBorderTable caption{border:1px dashed #ddd !important}
+.prodetail_1 table{margin-bottom:10px;border-collapse:collapse;display:table;}
+.prodetail_1 td,.proListShow th{padding: 5px 10px;border: 1px solid #DDD;}
+.prodetail_1 caption{border:1px dashed #DDD;border-bottom:0;padding:3px;text-align:center;}
+.prodetail_1 th{border-top:1px solid #BBB;background-color:#F7F7F7;}
+.prodetail_1 table tr.firstRow th{border-top-width:2px;}
+.prodetail_1 .ue-table-interlace-color-single{ background-color: #fcfcfc; } 
+.prodetail_1 .ue-table-interlace-color-double{ background-color: #f7faff; }
+.prodetail_1 td p{margin:0;padding:0;}
+@media screen and (min-width:641px){
+	.proListShow .listLi:hover .imgDiv img{ transform: translateX(-50%) scale(1.1); -webkit-transform: translateX(-50%) scale(1.1); -moz-transform: translateX(-50%) scale(1.1); -o-transform: translateX(-50%) scale(1.1);}
+}
+@media screen and (max-width:640px){
+	.prodetailstyle_1 .collage_bt{ font-size:14px; }
+	.prodetailstyle_1 .itembox .more_img{ margin-right:10px; }
+	.prodetailstyle_1 .user_img{ width:30px; height:30px; }
+	.prodetailstyle_1 .empty_img{ width:30px; height:30px; margin-left:-20px; border:1px dotted #e5e5e5; background:white; border-radius:200px; float:right;}
+	.prodetailstyle_1 .more_img .hav_img{ float:left; }
+	.prodetailstyle_1 .itembox{ font-size:12px; padding:10px; display:block;}
+	.prodetailstyle_1 .itembox>div{ line-height:30px; margin:0; float:left; position:relative;}
+	.prodetailstyle_1 .itembox .join_button{ float:right; margin:5px 0;}
+	.prodetailstyle_1 .join_btn{ padding:0 20px; line-height:2; margin:0; line-height:unset;}
+	.prodetailstyle_1 .pc{ display:none; }
+	.prodetailstyle_1 .mobile{ display:block; }
+	.prodetailstyle_1 .initiator_name.mobile>span{ line-height:1.5; display:block; }
+
+	.proListShow h2{ font-size: 16px;}
+	.proListShow .listLi{ width: calc( 96%/2 ); margin-bottom: 15px;}
+	.proListShow .titleDiv{ font-size: 14px;}
+}
+@media screen and (max-width:767px){
+.prodetail_1{font-size:12px; }
+.prodetail_1 img{width:100% !important; height:auto !important;}
+}
+

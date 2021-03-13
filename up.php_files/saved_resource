@@ -1,0 +1,20 @@
+/*背景色*/
+.Btn,
+.moBgColor,
+.cartBottom .cartBtn .cBtn,
+.addCartBox .loginTips .gologin,
+.cartBottom .cartBtn .whiteBtn:hover{background: #3333ff !important;}
+.cartBottom .cartBtn .whiteBtn:hover{color: #fff;}
+
+.cartBottom .cartBtn .whiteBtn{background: #fff !important;}
+
+/*边框*/
+.cartBottom .cartBtn .cBtn{border-color:#3333ff !important;}
+.cartBottom .cartBtn .whiteBtn{border-color: #ddd !important}
+.pro_order .gform .gbt{background: #3333ff !important;}
+
+#showAddr .hotAddr,
+.setbox .setUI li.current,
+.setbox .setUI li:hover{border-color: #3333ff !important;}
+
+.mofontColor{color:#3333ff !important;}

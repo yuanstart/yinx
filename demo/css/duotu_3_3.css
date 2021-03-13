@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.duotu_3_3{width:369px;}
+/*中图*/
+.duotu_3_3 .bigimg{width:298px;height:298px; float:right; border:1px solid #dcdddd; overflow:hidden;}/*如果要加放大镜，请删除"overflow:hidden;"，否则放大镜显示不了*/
+.duotu_3_3 .bigimg li{ width:298px;height:298px;text-align:center;display:table;}
+.duotu_3_3 .bigimg li span{vertical-align:middle;display:table-cell;}
+.duotu_3_3 .bigimg li a{ margin:0px auto;}	
+/*左右按钮*/
+.duotu_3_3 .smallscroll_3_3{ width:63px;margin-right:6px; float:left;}
+.duotu_3_3 .sprev{ width: 63px; height: 14px; display: block; background: url(../images/tb_btn_d.png) no-repeat 0 0;}
+.duotu_3_3 .snext{ width: 63px; height: 14px; display: block; background: url(../images/tb_btn_d.png) no-repeat 0 -14px;}	
+/*小图*/
+.duotu_3_3 .smaimg{width:63px; margin-top:4px;}
+.duotu_3_3 .smaimg li{ width:63px; height:63px;cursor:pointer; margin-bottom:4px;}
+.duotu_3_3 .smaimg img{width:61px; height:61px; border: 1px solid #dcdddd;}	
+.duotu_3_3 .smaimg li.on img{border-color:#C00C3E;}

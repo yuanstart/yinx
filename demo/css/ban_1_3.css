@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.ban_1_3{ width:300px; height:225px; position:relative; overflow:hidden; margin:0 auto;}
+.ban_1_3 .bd li img{width: 300px; height: 225px; display: block;}
+/*数字焦点*/
+.ban_1_3 .hd{ width:100%;  position:absolute; z-index:1; bottom:0; left:0; height:22px; line-height:22px; text-align:center; }
+.ban_1_3 .hd ul li{ cursor:pointer; display:inline-block; *display:inline; zoom:1; width:16px; height:16px; margin:0px; background:url(../images/slider-dot.png) 0 -16px; overflow:hidden; line-height:9999px;}	
+.ban_1_3 .hd ul .on{ background-position:0px 0px;}
+

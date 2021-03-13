@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.ban_1_4{ width:300px; height:225px; position:relative; overflow:hidden; margin:0 auto;}
+.ban_1_4 .bd li img{width: 300px; height: 225px; display: block;}
+/*方块焦点*/
+.ban_1_4 .hd{ width:100%;position:absolute;z-index:1;bottom:0;left:0;height:22px; line-height:22px; text-align:center;}/*方块靠左请设text-align:left; 靠右请设text-align:right;*/
+.ban_1_4 .hd ul li{width:11px; height:11px;cursor:pointer;display:inline-block;*display:inline;zoom:1;margin:0px;overflow:hidden;background-color:#ff0000;margin:0 1px; opacity:0.6; filter:alpha(opacity=60); line-height:9999px;}	
+.ban_1_4 .hd ul li.on{background-color:#fff;opacity:1; filter:alpha(opacity=100);}

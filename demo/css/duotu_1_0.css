@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.duotu_1_0{width:680px;}	
+/*中图*/
+.duotu_1_0 .bigimg{width:678px;height:378px;border:1px solid #dcdddd; overflow:hidden; position:relative;}/*如果要加放大镜，请删除"overflow:hidden;"，否则放大镜显示不了*/
+.duotu_1_0 .bigimg li{ width:678px;height:378px;text-align:center;display:table;}
+.duotu_1_0 .bigimg li span{vertical-align:middle;display:table-cell;}
+.duotu_1_0 .bigimg li img{display:block;background:url(../images/load.gif) center center no-repeat;margin:0px auto;}
+.duotu_1_0 .bigimg li a{ margin:0px auto;}
+.duotu_1_0 .prevs{width:40px; height:60px; position:absolute; left:2%; top:40%; display:block; background:#000 url(../images/slider-left.png) center center no-repeat; filter:alpha(opacity=50);opacity:0.5; }
+.duotu_1_0 .nexts{width:40px; height:60px; position:absolute; right:2%; top:40%; display:block; background:#000 url(../images/slider-right.png) center center no-repeat; filter:alpha(opacity=50);opacity:0.5;}	
+/*左右按钮*/
+.duotu_1_0 .smallscroll_1_0{ margin-top:6px;}
+.duotu_1_0 .sprev{ width: 14px; height: 56px; float:left; display: block; background: url(../images/lr_btn_56.png) no-repeat 0 0;}
+.duotu_1_0 .snext{ width: 14px; height: 56px; float:left; display: block; background: url(../images/lr_btn_56.png) no-repeat -14px 0;}	
+/*小图(小图宽度和间隔计算方式：(总宽度)680-(左右按钮)2*14)-(图片宽度)6*100-(左右按钮与图片的间距)2*6/(6张图片5个间距)5*/
+.duotu_1_0 .smaimg{width:646px; float:left; margin-left:6px;}
+.duotu_1_0 .smaimg li{ width:100px; height:56px;float:left; cursor:pointer; display:inline; margin-right:8px;}
+.duotu_1_0 .smaimg img{width:98px; height:54px; border: 1px solid #dcdddd;}	
+.duotu_1_0 .smaimg li.on img{border-color:#C00C3E;}
+

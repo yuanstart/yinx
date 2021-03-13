@@ -1,0 +1,18 @@
+/*在线客服边栏*/
+#online_service_bar{position:absolute; top:-150px; right:0;overflow:hidden;z-index:1001;font-family:"微软雅黑";}
+
+/*打开*/
+#online_service_fullbar{display:none;width:138px;padding-bottom:10px;background:url(footer.gif) no-repeat left bottom;}
+.service_bar_head{text-indent: -9999px;width:138px;height:58px;position:relative;background:url(header.gif) no-repeat left top;}
+.service_bar_head #service_bar_close{position:absolute;width:35px;height:35px;top:0;right:0;cursor:pointer;display:block;text-indent: -9999px;}
+/*客服列表*/
+.service_bar_main{width:122px;padding:5px 8px 5px 6px;background:url(main.gif) repeat-y left top;}
+.kf_tit_list{font-size:12px;overflow:hidden;}
+.kf_tit_list li{overflow:hidden;line-height:30px;}
+/*大图标有昵称 padding-left:0px;   大图标无昵称 padding-left:18px;   小图标有昵称 padding-left:25px;*/
+.kf_tit_list li a{height:30px; display:block;clear:both; padding-left:28px}
+.kf_tit_list li a img {float:left; margin:3px 1px 0 1px;}
+.kf_tit_list li.phone a{ color:blue; font-weight:bold; font-family:Arial, Helvetica, sans-serif; padding-left:5px;}
+
+/*关闭*/
+#online_service_minibar{ margin-top:12px;width:23px;height:80px;background:url(mini.gif) no-repeat right top;display:none;cursor: pointer;}
